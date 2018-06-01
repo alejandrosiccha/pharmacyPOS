@@ -915,6 +915,19 @@ INSERT INTO resources(id, name, restype, content) VALUES('70', 'script.posapps',
 INSERT INTO resources(id, name, restype, content) VALUES('71', 'script.SendOrder', 0, $FILE{/com/openbravo/pos/templates/script.SendOrder.txt});
 INSERT INTO resources(id, name, restype, content) VALUES('72', 'script.Totaldiscount', 0, $FILE{/com/openbravo/pos/templates/script.Totaldiscount.txt});
 
+-- CURRENCY PERU
+INSERT INTO resources(id, name, restype, content) VALUES('73', 'img_pe.010', 1, $FILE{/com/openbravo/images/.10_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('74', 'img_pe.020', 1, $FILE{/com/openbravo/images/.20_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('75', 'img_pe.050', 1, $FILE{/com/openbravo/images/.50_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('76', 'img_pe.1', 1, $FILE{/com/openbravo/images/1.00_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('77', 'img_pe.2', 1, $FILE{/com/openbravo/images/2.00_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('78', 'img_pe.5', 1, $FILE{/com/openbravo/images/5.00_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('79', 'img_pe.10', 1, $FILE{/com/openbravo/images/10.00_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('80', 'img_pe.20', 1, $FILE{/com/openbravo/images/20.00_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('81', 'img_pe.50', 1, $FILE{/com/openbravo/images/50.00_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('82', 'img_pe.100', 1, $FILE{/com/openbravo/images/100.00_pe.jpg});
+INSERT INTO resources(id, name, restype, content) VALUES('83', 'img_pe.200', 1, $FILE{/com/openbravo/images/200.00_pe.jpg});
+
 -- ADD CATEGORIES
 INSERT INTO categories(id, name) VALUES ('000', 'Category Standard');
 
